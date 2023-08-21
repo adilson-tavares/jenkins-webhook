@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-test-container
-        image: tavarescruz/service-flask:54-fb3b4acc2b763c22b18a64dd1150460a74e414f1
+        image: tavarescruz/service-flask:55-31b2d201ec45d7c215eca5f8e0022e5df63ae437
         resources:
           limits:
             memory: "128Mi"
