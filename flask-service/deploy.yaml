@@ -16,7 +16,7 @@ spec:
         app: flask-service
     spec:
       containers:
-      - name: flask-test-contianer
+      - name: flask-test-container
         image: tavarescruz/service-flask:52-1d2e501001fb3ae7760c34ca54d865dccf5ac65b
         resources:
           limits:
