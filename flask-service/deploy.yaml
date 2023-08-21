@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-app-deployment
+  name: flask-app-pod
   namespace: devops-tools
   labels:
-    app: flask-app-service
+    app: flask-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: flask-app-service
+      app: flask-service
   template:
     metadata:
       labels:
-        app: flask-app-service
+        app: flask-service
     spec:
       containers:
       - name: flask-test-contianer
